@@ -55,6 +55,7 @@ android {
 }
 
 dependencies {
+    implementation "com.android.billingclient:billing:1.2"
     implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle"
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "androidx.lifecycle:lifecycle-compiler:$version_lifecycle"
